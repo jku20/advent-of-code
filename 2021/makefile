@@ -1,5 +1,5 @@
 #File Name
-F?=advent.rs
+F?=two.rs
 
 #Templates for when generating file
 CPPTEMPLATE?=~/Desktop/CP/templates/simple.cpp
@@ -22,8 +22,8 @@ py:
 	$(PYTHON) $(F)
 
 rs:
-	$(RUSTC) $(RFLAGS) $(F)
-	./advent
+	$(RUSTC) $(RFLAGS) $(F) -o a
+	./a
 
 gencpp:
 	cp $(CPPTEMPLATE) ./$(F)
