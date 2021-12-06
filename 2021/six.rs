@@ -4,7 +4,6 @@ use std::io::{self, prelude::*};
 static INPUT: &str = include_str!("input");
 const N: usize = 256;
 
-//1609314870967
 fn main() {
     let ls = INPUT.trim().split(",").map(|x| x.parse().unwrap()).collect::<Vec<usize>>();
     let mut fish = vec![0,0,0,0,0,0,0,0,0];
