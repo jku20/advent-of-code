@@ -1,5 +1,5 @@
 #File Name
-F?=eleven.cpp
+F?=twelve.cpp
 
 #Templates for when generating file
 CPPTEMPLATE?=~/Desktop/CP/templates/simple.cpp
