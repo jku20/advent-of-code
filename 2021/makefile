@@ -1,12 +1,12 @@
 #File Name
-F?=twelve.cpp
+F?=thirteen.cpp
 
 #Templates for when generating file
 CPPTEMPLATE?=~/Desktop/CP/templates/simple.cpp
 RSTEMPLATE?=~/Desktop/CP/templates/simple.rs
 
 #compiler flags and stuff
-CFLAGS=-Wextra -Wall -pedantic -O3 -std=c++14
+CFLAGS=-Wextra -Wall -pedantic -O3 -std=c++17
 CC=g++
 PYTHON=python3
 RFLAGS=-O
