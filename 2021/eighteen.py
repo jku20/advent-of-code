@@ -1,3 +1,4 @@
+from ast import literal_eval
 from itertools import combinations
 with open("input", 'r') as fin:
     s = fin.read().strip()
@@ -56,7 +57,7 @@ def magh(s):
     else:
         return 3*magh(s[0]) + 2*magh(s[1])
 def mag(s):
-    return magh(eval(str_rep(s)))
+    return magh(literal_eval(str_rep(s)))
 
 ans = -1
 for x, y in combinations(s, 2):
